@@ -1,0 +1,52 @@
+.footer {
+    background-color: black;
+    margin-top: -5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+  }
+
+  .foot-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .foot-title {
+    font-size: 14px;
+    color: #323232;
+  }
+
+  .foot-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .foot-href {
+    color: white;
+  }
+
+  .foot-foot {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .foot-num {
+    font-size: 28px;
+  }
+
+  .foot-mail {
+    font-size: 14px;
+    font-weight: 200;
+    color: white;
+  }
+
+  .foot-info {
+    display: flex;
+  }
+
+  .foot-text {
+    color: #323232;
+  }

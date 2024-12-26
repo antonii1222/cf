@@ -1,0 +1,23 @@
+.header {
+    background-color: #DFDFDF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .head-info {
+    display: flex;
+    flex-direction: column;
+    padding-left: 55px;
+  }
+
+  .head-item {
+    font-size: 50px;
+  } 
+  .head-title {
+    font-size: 22px;
+  }
+
+  .fon-head {
+    text-align: end;
+  }

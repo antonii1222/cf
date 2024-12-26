@@ -1,0 +1,36 @@
+.nav {
+    background-color: #DFDFDF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 118px;
+  }
+
+  .start {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-name {
+    font-size: 18px;
+  }
+
+  .start-menu {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .start-con {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .start-href {
+    font-weight: 700;
+  }
+
+  .number {
+    font-weight: 700;
+  }
