@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import foot from "./../../img/foot.svg"
 import logo_foot from "./../../img/logo.png";
 import "./style.css"
@@ -17,8 +18,8 @@ function Foot () {
         </div>
 
         <div className="foot-nav">
-          <a href="#!" className="foot-href">Контакты</a>
-          <a href="#!" className="foot-href">Наше меню</a>
+        <NavLink to="/" className="foot-href">Главная</NavLink>
+        <NavLink to="/prog" className="foot-href">Наше меню</NavLink>
         </div>
 
         <div className="foot-foot">

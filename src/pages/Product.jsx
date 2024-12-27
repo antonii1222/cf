@@ -1,4 +1,5 @@
 import { useParams } from "react-router-dom";
+import { NavLink } from "react-router-dom";
  
  import big3 from "./../img/big3.jpg"
 
@@ -18,7 +19,7 @@ import { useParams } from "react-router-dom";
 
                 <div className="sec-prod-info">
 
-                <div className="sec-prod-href"><a href="#!" className="prod-href">Назад</a></div>
+                <div className="sec-prod-href"> <NavLink to="/prog" className="prod-href">Назад</NavLink></div>
 
                 <div className="sec-info">
                     <h2 className="sec-prod-item">{projects.title}</h2>

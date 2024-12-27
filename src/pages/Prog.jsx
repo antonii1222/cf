@@ -22,7 +22,7 @@ function Prog () {
                 })}
 
                 </div>
-                {/* <div className="menu-two">
+                <div className="menu-two">
 
                 {project_two.map((project_two, index)=> {
                     return <Project key={index} title={project_two.title} img={project_two.img} skils={project_two.skils} item={project_two.item}></Project>
@@ -35,7 +35,7 @@ function Prog () {
                     return <Project key={index} title={project_three.title} img={project_three.img} skils={project_three.skils} item={project_three.item}></Project>
                 })}  
 
-                </div> */}
+                </div> 
             </div>
         </div>
        </main>

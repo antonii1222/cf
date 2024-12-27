@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import coffe_sec from "./../../img/coffe-head.svg";
 import "./style.css"
 
@@ -10,7 +11,7 @@ function SecOne () {
                                   ВСЕМ НУЖНО<br />
                                   COFFEMY <br />
                                   </h2>
-                                  <a href="#!" className="sec-href"><button className="sec-btn">Подробнее</button></a>
+                                  <NavLink to="/prog" className="sec-href"><button className="sec-btn">Подробнее</button></NavLink>
                                   </div>
                                   <div className="sec-foto">
                                     <img src={coffe_sec} alt="" className="coffe-sec" />
